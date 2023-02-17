@@ -10,4 +10,10 @@
   
 ## Feature Implemented : -
 
+  - Various mode - Light, Dark, Green, Blue etc
+  
+  
+  
+  
+
 
