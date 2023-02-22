@@ -13,8 +13,7 @@
   - Fully Responsive
   
   
-  
-    
+     
   
   
   
