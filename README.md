@@ -15,5 +15,3 @@
   - Fully Responsive
 
 
-
-
