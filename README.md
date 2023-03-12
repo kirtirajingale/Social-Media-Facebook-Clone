@@ -15,4 +15,3 @@
   - Various mode - Light, Dark, Green, Blue etc
   - Fully Responsive
 
-
