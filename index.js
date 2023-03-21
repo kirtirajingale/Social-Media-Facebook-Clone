@@ -16,9 +16,9 @@ const themeModel = document.querySelector(".customize-theme");
 const fontSizes = document.querySelectorAll(".choose-size span");
 var root = document.querySelector(":root");
 const colorPalette = document.querySelectorAll(".choose-color span");
-const bg1 = document.querySelector(".bg-1");
-const bg2 = document.querySelector(".bg-2");
-const bg3 = document.querySelector(".bg-3");
+const Bg1 = document.querySelector(".bg-1");
+const Bg2 = document.querySelector(".bg-2");
+const Bg3 = document.querySelector(".bg-3");
 
 
 
@@ -178,38 +178,38 @@ const changeBG = () => {
     root.style.styleProperty("--dark-color-lightness", darkColorLightness);
 }
 
-bg1.addEventListener("click", () => {
+Bg1.addEventListener("click", () => {
     // Add Active Class
-    bg1.classList.add("active");
+    Bg1.classList.add("active");
     // remove active class from the others
-    bg2.classList.remove("active");
-    bg3.classList.remove("active");
+    Bg2.classList.remove("active");
+    Bg3.classList.remove("active");
     // remove customized changes from local storage
     window.location.reload();
 })
 
-bg2.addEventListener("click", () => {
+Bg2.addEventListener("click", () => {
     darkColorLightness = "95%";
     whiteColorLightness = "20%";
     lightColorLightness = "15%";
 
     // Add Active Class
-    bg2.classList.add("active");
+    Bg2.classList.add("active");
     // remove active class from the others
-    bg1.classList.remove("active");
-    bg3.classList.remove("active");
-    changeBG()
+    Bg1.classList.remove("active");
+    Bg3.classList.remove("active");
+    changeBG();
 })
 
-bg3.addEventListener("click", () => {
+Bg3.addEventListener("click", () => {
     darkColorLightness = "95%";
     whiteColorLightness = "10%";
     lightColorLightness = "0%";
 
     // Add Active Class
-    bg3.classList.add("active");
+    Bg3.classList.add("active");
     // remove active class from the others
-    bg1.classList.remove("active");
-    bg2.classList.remove("active");
+    Bg1.classList.remove("active");
+    Bg2.classList.remove("active");
     changeBG();
 })
