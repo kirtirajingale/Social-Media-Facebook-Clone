@@ -16,7 +16,6 @@
   - Notification Popup
   - Search Functionality
   - Create Post Functionality
-  - Sending Messages
   - Various mode - Light, Dark, Green, Blue etc
   - Fully Responsive
 
