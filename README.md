@@ -16,7 +16,6 @@
   - Various mode - Light, Dark, Green, Blue etc
   - Fully Responsive
 
-
 # Overview of App :-
 
 ## Home Page
