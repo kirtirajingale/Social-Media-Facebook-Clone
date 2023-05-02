@@ -7,7 +7,6 @@
   - CSS
   - JavaScript
   
-  
 ## Feature Implemented : -
   - Notification Popup
   - Search Functionality
